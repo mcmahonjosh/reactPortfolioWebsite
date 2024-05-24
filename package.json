@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-native-canvas": "^0.1.39"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
