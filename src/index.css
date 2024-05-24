@@ -50,9 +50,18 @@
 }
 
 canvas {
-  background: #232323;
+  background: #01000f;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set canvas width to cover the entire viewport width */
+  height: 100vh; /* Set canvas height to cover the entire viewport height */
+  z-index: -1; /* Ensure the canvas is behind other content */
 }
 
 body {
-  background: #232323;
+  background: #000000;
 }

@@ -14,7 +14,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-        <canvas id="canvas"></canvas> {/* Place the canvas element */}
+        <canvas id="canvas"></canvas>
           { error && <div>{ error }</div>}
           { isLoading && <div>Loading...</div>}
           {blogs && <BlogList blogs={ blogs } title = "All Blogs!" />}
