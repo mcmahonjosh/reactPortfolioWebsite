@@ -3,6 +3,7 @@
 /* base styles */
 * {
   margin: 0;
+  padding: 0;
   font-family: "Quicksand";
   color: #333;
 }
@@ -30,9 +31,8 @@
   color: #451aa9;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 /* blog previews / list */
@@ -50,18 +50,6 @@
   margin-bottom: 8px;
 }
 
-canvas {
-  background: #000000;
-}
-
-canvas {
-  
-  top: 0;
-  left: 0;
-  width: 100vw; /* Set canvas width to cover the entire viewport width */
-  height: 100vh; /* Set canvas height to cover the entire viewport height */
-  z-index: -1; /* Ensure the canvas is behind other content */
-}
 
 body {
   background: #000000;
@@ -84,9 +72,10 @@ body {
 
 /* slides styling and enabling the ability to scroll */
 .container{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow-y: scroll;
+  padding: 0;
   
 }
 /* following to items are to hide the scroll bar while still keeping its functionality */
@@ -99,7 +88,7 @@ div {
   overflow-y: scroll; 
 }
 .slides{
-  width:  100%;
+  width:  100vw;
   height: 100vh;
   /* display: flex;
   align-items: center;
@@ -113,10 +102,11 @@ div {
 }
 
 .slides canvas {
-  position: absolute; /* Position the canvas within the slide */
+  position: relative; /* Position the canvas within the slide */
   top: 0; /* Align the canvas to the top of the slide */
-  left: 0; /* Align the canvas to the left of the slide */
-  width: 100%; /* Set canvas width to fill the entire width of the slide */
-  height: 100%; /* Set canvas height to fill the entire height of the slide */
-  z-index: -1; /* Ensure the canvas is behind other content */
+  left: 0; /*Align the canvas to the left of the slide */
+  width: 100vw; /* Set canvas width to fill the entire width of the slide */
+  height: 100vh; /* Set canvas height to fill the entire height of the slide */
+  z-index: 999; /* Ensure the canvas is behind other content */
+  padding: 0;
 }

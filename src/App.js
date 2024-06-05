@@ -15,15 +15,15 @@ function App() {
       <div class = "container">
         <div className="App">
        
-        <Navbar />
+       
           <div className="content">
             <Switch>
               <Route exact path="/">
               <div class= "slides slide1">
-                <Home /> 
+                <AboutPage /> 
               </div>
               <div class= "slides slide2">
-                <AboutPage /> 
+                <Home /> 
               </div>
               </Route>
               <Route path="/create">

@@ -1,16 +1,24 @@
 import { useState, useEffect} from 'react';
 import canvasDots from './animation';
 
+var counter = 0;
 
 const AboutPage = () => {
-
+    
+ 
+ 
     useEffect(() => {
-        canvasDots(); // Call canvasDots function to initialize the animation
+        if (counter == 1) {
+            canvasDots(); //counter fixed studid glitch caused by calling canvasDots() twice
+        }
+        counter++;
       }, []); // Ensure it only runs once after initial render
     
 
     return (
-        <canvas id="canvas"></canvas>
+    <div class="canvas">
+        <canvas class="connecting-dots"></canvas>
+      </div>
     );
 }
  
