@@ -8,28 +8,63 @@
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  background: #000;
+  min-height: 200vh;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 100000;
+
 }
-.navbar h1 {
-  color: #f2f2f2;
-  font-family: 'Times New Roman', serif;
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
   text-decoration: none;
-  padding: 6px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
 }
-.navbar a:hover {
-  color: #451aa9;
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+header ul li {
+  position: relative;
+  list-style: none;
+
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+header.sticky
+{
+  padding: 5px 100px;
+  background: #fff;
+}
+
 .content {
   margin: 0px auto;
   padding: 0px;
@@ -97,7 +132,7 @@ div {
   /*gap: 50px; */
   color: #fff;
   scroll-snap-align: start; 
-  position: relative
+  position: relative;
   
 }
 

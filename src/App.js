@@ -5,24 +5,26 @@ import Create from './Create';
 import BlogDetails from './BlogDetails';
 import AboutPage from './AboutPage';
 
-
+//honestly don't understand why the nabnar is in the about home page but it just is
 
 function App() {
 
+  
 
   return (
-    <Router>
-      <div class = "container">
+    <Router basename="/reactPortfolioWebsite">
+      <div className = "container">
         <div className="App">
        
        
           <div className="content">
             <Switch>
               <Route exact path="/">
-              <div class= "slides slide1">
+              <div className= "slides slide1">
+                <Navbar /> 
                 <AboutPage /> 
               </div>
-              <div class= "slides slide2">
+              <div className= "slides slide2">
                 <Home /> 
               </div>
               </Route>

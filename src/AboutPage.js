@@ -8,7 +8,7 @@ const AboutPage = () => {
  
  
     useEffect(() => {
-        if (counter == 1) {
+        if (counter != 0) {
             canvasDots(); //counter fixed studid glitch caused by calling canvasDots() twice
         }
         counter++;
@@ -16,8 +16,8 @@ const AboutPage = () => {
     
 
     return (
-    <div class="canvas">
-        <canvas class="connecting-dots"></canvas>
+    <div className="canvas">
+        <canvas className="connecting-dots"></canvas>
       </div>
     );
 }

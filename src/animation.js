@@ -37,7 +37,7 @@ const canvasDots = function () {
     } else if (windowSize > 1300) {
       dots = {
         nb: 575,
-        distance: 55,
+        distance: 56,
         d_radius: 250,
         array: [],
       };
