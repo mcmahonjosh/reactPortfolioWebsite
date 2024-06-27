@@ -1,27 +1,25 @@
 import { useState, useEffect} from 'react';
-import BlogList from './BlogList';
-import useFetch from './useFetch';
-
+import canvasDots from './animation';
 
 
 const Home = () => {
 
 
-  
-    const { data: blogs, isLoading, error} = useFetch('http://localhost:8000/blogs');
-    
 
-    return ( 
-        <div className="home">
-            
-              
-            { error && <div>{ error }</div>}
-            { isLoading && <div>Loading...</div>}
-            {blogs && <BlogList blogs={ blogs } title = "All Blogs!" />}
-            
-           
-        </div>
-    );
+
+    useEffect(() => {
+        //    if () {
+                canvasDots(); //counter fixed studid glitch caused by calling canvasDots() twice
+        //    }
+          //  counter++;
+          }, []); // Ensure it only runs once after initial render
+        
+    
+        return (
+        <div className="canvas">
+            <canvas className="connecting-dots"></canvas>
+          </div>
+        );
 }
  
 export default Home;

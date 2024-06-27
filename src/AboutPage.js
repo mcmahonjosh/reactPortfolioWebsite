@@ -1,24 +1,30 @@
 import { useState, useEffect} from 'react';
-import canvasDots from './animation';
+import BlogList from './BlogList';
+import useFetch from './useFetch';
 
-var counter = 0;
+//var counter = 0;
 
 const AboutPage = () => {
     
  
- 
-    useEffect(() => {
-        if (counter != 0) {
-            canvasDots(); //counter fixed studid glitch caused by calling canvasDots() twice
-        }
-        counter++;
-      }, []); // Ensure it only runs once after initial render
     
 
-    return (
-    <div className="canvas">
-        <canvas className="connecting-dots"></canvas>
-      </div>
+    return ( 
+        <div className="aboutPage">
+            
+            <h1 className="slideheaders">About</h1>
+            <body className="slidebody">
+                Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
+                at Cornell University.
+                Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
+                at Cornell University.
+                Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
+                at Cornell University.
+                Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
+                at Cornell University.
+            </body>
+           
+        </div>
     );
 }
  
