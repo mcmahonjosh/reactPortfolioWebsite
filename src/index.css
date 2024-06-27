@@ -189,8 +189,8 @@ header.sticky ul li a
 .slidebody {
   background-color: transparent;
   position: relative;
-  margin-top: 50px;
-  margin-left: 700px;
+  margin-left: 30px;
+  font-size: 23px;
 }
 .slide3 {
   background-color: black;
@@ -203,4 +203,19 @@ header.sticky ul li a
 .slide5 {
   background-color: black;
   margin-top: 60px;
+}
+
+.profileimage {
+  width: 400px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  /* Add any other styles you need */
+
+}
+
+.aboutpagecontainer {
+  display: flex;
+  align-items: flex-start; /* Align items to the start (top) of the container */
+  margin-top: 20px; /* Example margin top */
+  margin-left: 30px; /* Example margin left */
 }

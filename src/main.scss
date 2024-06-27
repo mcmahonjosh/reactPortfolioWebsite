@@ -7,25 +7,110 @@
   }
   
   .canvas {
-    position: absolute;
+    position: relative; /* Ensure relative positioning for z-index to work */
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-  
     width: 100%;
     height: 100vh;
-  
     background-color: black;
 
+    .connecting-dots {
+        position: absolute; /* Position the canvas absolutely */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* Add your animation styles here */
+        z-index: 1; /* Set a lower z-index */
+    }
+
+    .homepagetitle {
+      position: relative; /* Ensure relative positioning for z-index to work */
+      z-index: 2; /* Set a higher z-index than the canvas */
+      /*text-align: center;*/
+      color: white;
+      margin-top: 280px;
+      /* Add any other styles you need for your title */
+  
+      /* Typing animation */
+      
+      width: 100%;
+      overflow: hidden; /* Hide overflowing text */
+      white-space: nowrap; /* Prevent wrapping */
+      animation:
+          typing 1.7s steps(14), 
+          cursor 0.6s; /* Adjust duration and steps as needed */
   }
   
-  .connecting-dots {
-    // position: fixed;
-  
-    height: 100%;
+  .homepagetitle2 {
+    position: relative; /* Ensure relative positioning for z-index to work */
+    z-index: 2; /* Set a higher z-index than the canvas */
+    /*text-align: center;*/
+    color: white;
+    margin-top: 280px;
+    /* Add any other styles you need for your title */
+
+    /* Typing animation */
+    
     width: 100%;
-    // z-index: -1;
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent wrapping */
+    animation:
+        bewhite 2.3s,
+        typing 1.8s steps(17) 2.3s, 
+        cursor 0.6s 2.5s step-end infinite alternate; /* Adjust duration and steps as needed */
+}
+
+  @keyframes bewhite {
+    from {
+      width: 0; /* Start with 0 width */
+      color: transparent; 
+      
   }
-  
+  to {
+      color: transparent; 
+  }
+  }
+  @keyframes cursor {
+    50% { 
+      border-color: transparent;
+      border-right: 3px solid;
+    }
+  }
+  @keyframes typing {
+    from {
+        width: 0; /* Start with 0 width */
+        border-right: 3px solid;
+    }
+    to {
+      border-right: 3px solid;
+    }
+
+}
+
+.titlecontainer1 {
+  display: inline-block; /* Keep display as inline-block */
+  text-align: center; /* Center content horizontally */
+  position: absolute; /* Position the container */
+  top: 20%; /* Move container 50% from top */
+  left: 50%; /* Move container 50% from left */
+  transform: translate(-50%, -50%); /* Center container */
+  z-index: 2; /* Adjust z-index as needed */
+}
+
+.titlecontainer2 {
+  display: inline-block; /* Keep display as inline-block */
+  text-align: center; /* Center content horizontally */
+  position: absolute; /* Position the container */
+  top: 25%; /* Move container 50% from top */
+  left: 50%; /* Move container 50% from left */
+  transform: translate(-50%, -50%); /* Center container */
+  z-index: 2; /* Adjust z-index as needed */
+}
+
+    
+}
+
  

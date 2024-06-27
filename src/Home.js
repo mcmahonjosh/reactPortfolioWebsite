@@ -17,7 +17,15 @@ const Home = () => {
     
         return (
         <div className="canvas">
-            <canvas className="connecting-dots"></canvas>
+            <canvas className="connecting-dots">
+            
+            </canvas>
+              <div className = "titlecontainer1">
+                <h1 className="homepagetitle">Joshua McMahon</h1>
+              </div>
+              <div className = "titlecontainer2">
+                <p className = "homepagetitle2">Software Engineer</p>
+              </div>
           </div>
         );
 }
