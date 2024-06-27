@@ -25,21 +25,40 @@ function App() {
               <Route exact path="/">
               <div className="firstpage">
                 <Navbar /> 
-                <div className = "slides slide1">
-                <Home className="Home" /> 
-                </div>
-                <div className = "slides slide2">
-                <AboutPage className="AboutPage"/> 
-                </div>
-                <div className = "slides slide3">
-                <ProjectPage className="ProjectPage"/> 
-                </div>
-                <div className = "slides slide4">
-                <ExperiencePage className="ExperiencePage"/> 
-                </div>
-                <div className = "slides slide5">
-                <ContactPage className="ContactPage"/> 
-                </div>
+
+                  <section id = "home"></section>
+                  <div className = "slides slide1">
+                  <Home className="Home" /> 
+                  </div>
+                
+                
+                  <div className = "slides slide2">
+                  <section id = "about"> 
+                  <AboutPage className="AboutPage"/> 
+                  </section>
+                  </div>
+                
+                
+                  <div className = "slides slide3">
+                  <section id = "projects"> 
+                  <ProjectPage className="ProjectPage"/> 
+                  </section>
+                  </div>
+                
+                
+                  <div className = "slides slide4">
+                  <section id = "experience"> 
+                  <ExperiencePage className="ExperiencePage"/> 
+                  </section>
+                  </div>
+                
+                
+                  <div className = "slides slide5">
+                  <section id = "contact"> 
+                  <ContactPage className="ContactPage"/> 
+                  </section>
+                  </div>
+                
               </div>
               </Route>
               <Route path="/create">

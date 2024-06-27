@@ -176,7 +176,7 @@ header.sticky ul li a
 
 .slideheaders {
   color: white;
-  margin-top: 10px;
+  margin-top: 45px;
   position: relative;
   top: 0;
   text-align: center;
@@ -218,4 +218,9 @@ header.sticky ul li a
   align-items: flex-start; /* Align items to the start (top) of the container */
   margin-top: 20px; /* Example margin top */
   margin-left: 30px; /* Example margin left */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 3rem;
 }

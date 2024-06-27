@@ -12,9 +12,9 @@ const Navbar = () => {
             const { scrollY } = window;
             console.log( 'scrollY', scrollY)
          };
-          window.addEventListener("wheel", () => { //sometimes you have to listen for wheel and not scroll
+          window.addEventListener("scroll", () => { //sometimes you have to listen for wheel and not scroll
             console.log(window.scrollY);
-            setSmall(window.scrollY > 0);
+            setSmall(window.scrollY > 0 );
           }, true);
         }
       }, []);
@@ -25,11 +25,11 @@ const Navbar = () => {
              <header className={`"" ${small ? "sticky" : ""}`}>
                 <a href="#" className="logo">Logo</a>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </header>
             <section className="banner"></section>
