@@ -17,15 +17,13 @@ const AboutPage = () => {
             <div className="aboutpagecontainer">
                 <img src={imageSrc} alt="Joshua McMahon" className="profileimage"/> {/* Use imported image */}
                 <body className="slidebody">
-                    Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
-                    at Cornell University.
-                    Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
-                    at Cornell University.
-                    Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
-                    at Cornell University.
-                    Hello, My name is Joshua McMahon. I am a computer science undergrad from Los Angeles, California studying Computer Science
-                    at Cornell University.
+                    Hello, My name is Joshua McMahon! I am from Los Angeles, California and I am currently studying Computer 
+                    Science at Cornell University. 
                     
+                    At school I am a software developer on the engineering project team Engineers Without Borders.
+
+                    In addition to accademics I am part of the Cornell Taekwondo Sport Club team. Additionally some of 
+                    my favorite hobbies are to work out, play basketball, play piano, and learn languages.
                 </body>
             </div>
            
