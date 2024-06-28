@@ -4,6 +4,7 @@
   "homepage": "https://mcmahonjosh.github.io/reactPortfolioWebsite/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +13,7 @@
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
     "sass": "^1.77.4",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
