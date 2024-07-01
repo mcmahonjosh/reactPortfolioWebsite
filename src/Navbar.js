@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
              <header className={`"" ${small ? "sticky" : ""}`}>
-                <a href="#" className="logo">Logo</a>
+                <a href="#" className="logo">JM</a>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
