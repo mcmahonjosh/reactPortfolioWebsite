@@ -270,27 +270,56 @@ header.sticky ul li a
   width: 240px; /* Example width */
   height: auto; /* Maintain aspect ratio */
   margin-left: 70px;
-  margin-top: 20px;
+  margin-top: 50px;
+  opacity: 1;
+  transform: 0.6s;
+  transition: border-color 0.3s ease;
 }
+.pomodoro-image:hover{
+  opacity: 1;
+  border: 4px solid blue;
+}
+
 
 .workoutapp-image {
   width: 300px; /* Example width */
   height: auto; /* Maintain aspect ratio */
   margin-left: 70px;
-  margin-top: 20px;
+  margin-top: 50px;
+  opacity: 1;
+  transform: 0.6s;
+  transition: border-color 0.3s ease;
 }
+.workoutapp-image:hover{
+  opacity: 1;
+  border: 4px solid blue;
+}
+
+
+
 
 .arcadiaapp-image{
   width: 211px; /* Example width */
   height: auto; /* Maintain aspect ratio */
   margin-left: 70px;
-  margin-top: 20px;
+  margin-top: 37px;
+  transition: border-color 0.3s ease;
 }
+.arcadiaapp-image:hover{
+  opacity: 1;
+  border: 4px solid blue;
+}
+
 .ewbapp-image1 {
-  width: 300px; /* Example width */
+  width: 195px; /* Example width */
   height: auto; /* Maintain aspect ratio */
   margin-left: 70px;
   margin-top: 20px;
+  transition: border-color 0.3s ease;
+}
+.ewbapp-image1:hover{
+  opacity: 1;
+  border: 4px solid blue;
 }
 
 

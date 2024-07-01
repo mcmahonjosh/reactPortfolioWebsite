@@ -1,5 +1,5 @@
 import imageSrc from './img/arcadia-high-app-image.jpg'; // Import your image
-import imageSrc2 from './img/ewbappimage1.png';
+import imageSrc2 from './img/newewbappimage1.png';
 import imageSrc3 from './img/newappstoredownloadimage.png';
 import imageSrc4 from './img/newgoogleplaydownloadimage.png';
 //var counter = 0;
