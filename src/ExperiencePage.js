@@ -20,10 +20,10 @@ const ExperiencePage = () => {
                     </body>
                     <img src={imageSrc2} alt="Joshua McMahon" className="ewbapp-image1"/> {/* Use imported image */}
                     <body className="slidebody">
-                        <u>Cornell Wardrobe:</u> App that enables users to create and store personalized workouts, aiding them in structuring their exercise
-    routines. Allows users to edit and delete workouts and add descriptions for them if needed. Uses Python for the
-    back-end, HTML for the front-end, and Django as the web framework. Also has user-authentication where users
-    can sign in and out on the application. Data is stored on a SQLite3 document, the default database for Django. *Currently in Development
+                        <u>Cornell Wardrobe:</u> Currently I am a back-end developer for Cornell Wardrobe which is an app that allows students
+                        to rent out professional clothing. I have worked to set up and integrate the back-end into the Swift app.
+                        Google Cloud Firestore is used to store the back-end data. We also use monday.com to store information, and we communicate the information
+                        between monday.com and Firestore through make.com APIs.
                     </body>
                     <div class="image-crop-dowload-app">
                         <a href="https://apps.apple.com/us/app/arcadia-high-mobile/id1305220468" target="_blank" rel="noopener noreferrer">
