@@ -95,7 +95,10 @@ const ContactComponent = () => {
       {notification.show && (
         <NotificationMessage>{notification.message}</NotificationMessage>
       )}
+
+    
     </StyledContactForm>
+   
   );
 };
 

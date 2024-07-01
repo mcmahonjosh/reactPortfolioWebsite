@@ -19,6 +19,7 @@ const ContactPage = () => {
           <a href="https://www.linkedin.com/in/joshuahmcmahon/" target="_blank" rel="noopener noreferrer">
                 <img src={imageSrc3} alt="Linkedin Profile" className="linkedin-image"/> {/* Use imported image */}
           </a>
+          <p className="websitesignature">Programmed by Joshua McMahon              © Copyright 2024</p>
         </div>
     );
     

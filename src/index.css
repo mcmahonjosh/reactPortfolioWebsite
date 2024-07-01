@@ -168,6 +168,10 @@ header.sticky {
   margin-top: auto; /* Anchor Home component to the bottom of AboutPage */
 }
 
+.ExperiencePage {
+  margin-top: auto; /* Anchor Home component to the bottom of AboutPage */
+}
+
 header.sticky .logo,
 header.sticky ul li a 
 {
@@ -186,6 +190,7 @@ header.sticky ul li a
 .slide2{
   background-color: rgba(12,0,25,255);
   margin-top: 60px;
+  height: 90vh;
 }
 .slidebody {
   background-color: transparent;
@@ -231,11 +236,34 @@ header.sticky ul li a
   margin-left: 73px;
 }
 
+
 .linkedin-image {
   width: 55px; /* Example width */
   height: auto; /* Maintain aspect ratio */
   margin-top: 30px;
   margin-left: 73px;
+}
+
+.downloadarcadiaapp-appstore {
+  width: 155px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 450px;
+  margin-left: -1400px;
+}
+
+
+.downloadarcadiaapp-goolgeplay {
+  width: 160px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 450px;
+  margin-left: -1200px;
+}
+
+
+
+.websitesignature {
+  margin-top: 80px;
+ 
 }
 
 .pomodoro-image {
@@ -244,6 +272,27 @@ header.sticky ul li a
   margin-left: 70px;
   margin-top: 20px;
 }
+
+.workoutapp-image {
+  width: 300px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.arcadiaapp-image{
+  width: 211px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.ewbapp-image1 {
+  width: 300px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
 
 .pagecontainer {
   display: flex;

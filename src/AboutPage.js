@@ -19,11 +19,13 @@ const AboutPage = () => {
                 <img src={imageSrc2} alt="" className="profileimage"/> {/* Use imported image */}
                 <body className="slidebody">
                     Hello, My name is Joshua McMahon! I am from Los Angeles, California and I am currently studying Computer 
-                    Science at Cornell University. 
-                    
-                    At school I am a software developer on the engineering project team Engineers Without Borders.
-
-                    In addition to accademics I am part of the Cornell Taekwondo Sport Club team. Additionally some of 
+                    Science at Cornell University.<br /><br />
+                    My technical skills include front-end devoplement languages and frameworks such as HTML and CSS as well as ReactJS. I also
+                    have experience in iOS development and have worked on multiple apps with Swift. In addition I have back-end experience
+                    with non SQL databases such as Google Cloud Firestore and am currently using Firestore in my role as a back-end developer on
+                    the project team Engineers Without Borders at Cornell. Finally, I am fluent in C++, Java, and Python.
+                    <br /><br />
+                    Apart from accademics I am part of the Cornell Taekwondo Sport Club team. Additionally some of 
                     my favorite hobbies are to work out, play basketball, play piano, and learn languages.
                 </body>
             </div>
