@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/reactPortfolioWebsite/static/css/main.58ce421d.css",
-    "main.js": "/reactPortfolioWebsite/static/js/main.3e2bf9a7.js",
+    "main.css": "/reactPortfolioWebsite/static/css/main.b4fc5fb5.css",
+    "main.js": "/reactPortfolioWebsite/static/js/main.3006c756.js",
     "static/js/453.d687c74a.chunk.js": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js",
     "static/media/selfphotoflowers.jpg": "/reactPortfolioWebsite/static/media/selfphotoflowers.8a25a21e50b4c4afaf1e.jpg",
     "static/media/1705489908612.jpg": "/reactPortfolioWebsite/static/media/1705489908612.0678efcc6d39ef763cb1.jpg",
+    "static/media/arcadia-high-app-image.jpg": "/reactPortfolioWebsite/static/media/arcadia-high-app-image.7e8967e446074f13010e.jpg",
     "static/media/pomodoro-study-app-image.jpg": "/reactPortfolioWebsite/static/media/pomodoro-study-app-image.cbed1174524f17bd0ed3.jpg",
     "static/media/gmail-logo-image.png": "/reactPortfolioWebsite/static/media/gmail-logo-image.4f2db89278f9ad3abef6.png",
+    "static/media/ewbappimage1.png": "/reactPortfolioWebsite/static/media/ewbappimage1.d3c23011ec5521094d2e.png",
+    "static/media/newappstoredownloadimage.png": "/reactPortfolioWebsite/static/media/newappstoredownloadimage.82ea5b14a0d14a881add.png",
+    "static/media/newgoogleplaydownloadimage.png": "/reactPortfolioWebsite/static/media/newgoogleplaydownloadimage.50725ca8c4fa42f6d026.png",
     "static/media/new-linkedin-image.png": "/reactPortfolioWebsite/static/media/new-linkedin-image.4d4e3ab5462011da39bb.png",
+    "static/media/workoutapp-image.jpg": "/reactPortfolioWebsite/static/media/workoutapp-image.7da70899f9b0db94fa4f.jpg",
     "index.html": "/reactPortfolioWebsite/index.html",
-    "main.58ce421d.css.map": "/reactPortfolioWebsite/static/css/main.58ce421d.css.map",
-    "main.3e2bf9a7.js.map": "/reactPortfolioWebsite/static/js/main.3e2bf9a7.js.map",
+    "main.b4fc5fb5.css.map": "/reactPortfolioWebsite/static/css/main.b4fc5fb5.css.map",
+    "main.3006c756.js.map": "/reactPortfolioWebsite/static/js/main.3006c756.js.map",
     "453.d687c74a.chunk.js.map": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58ce421d.css",
-    "static/js/main.3e2bf9a7.js"
+    "static/css/main.b4fc5fb5.css",
+    "static/js/main.3006c756.js"
   ]
 }
