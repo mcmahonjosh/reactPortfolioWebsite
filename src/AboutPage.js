@@ -25,7 +25,7 @@ const AboutPage = () => {
                     with non SQL databases such as Google Cloud Firestore and am currently using Firestore in my role as a back-end developer on
                     the project team Engineers Without Borders at Cornell. Finally, I am fluent in C++, Java, and Python.
                     <br /><br />
-                    Apart from accademics I am part of the Cornell Taekwondo Sport Club team. Additionally some of 
+                    Apart from academics I am part of the Cornell Taekwondo Sport Club team. Additionally some of 
                     my favorite hobbies are to work out, play basketball, play piano, and learn languages.
                 </body>
             </div>
