@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPortfolioWebsite/static/css/main.096f74bd.css",
-    "main.js": "/reactPortfolioWebsite/static/js/main.82b7db0e.js",
+    "main.js": "/reactPortfolioWebsite/static/js/main.07893398.js",
     "static/js/453.d687c74a.chunk.js": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js",
     "static/media/newpomodoroappimage.png": "/reactPortfolioWebsite/static/media/newpomodoroappimage.f7219fd67680851a1ede.png",
     "static/media/selfphotoflowers.jpg": "/reactPortfolioWebsite/static/media/selfphotoflowers.8a25a21e50b4c4afaf1e.jpg",
@@ -15,11 +15,11 @@
     "static/media/workoutapp-image.jpg": "/reactPortfolioWebsite/static/media/workoutapp-image.7da70899f9b0db94fa4f.jpg",
     "index.html": "/reactPortfolioWebsite/index.html",
     "main.096f74bd.css.map": "/reactPortfolioWebsite/static/css/main.096f74bd.css.map",
-    "main.82b7db0e.js.map": "/reactPortfolioWebsite/static/js/main.82b7db0e.js.map",
+    "main.07893398.js.map": "/reactPortfolioWebsite/static/js/main.07893398.js.map",
     "453.d687c74a.chunk.js.map": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.096f74bd.css",
-    "static/js/main.82b7db0e.js"
+    "static/js/main.07893398.js"
   ]
 }
