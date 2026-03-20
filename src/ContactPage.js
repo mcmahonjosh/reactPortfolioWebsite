@@ -1,28 +1,33 @@
 import React from "react";
 import ContactComponent from "./ContactComponent";
-import imageSrc from './img/github-logo-image.png'; // Import your image
+import imageSrc from './img/github-logo-image.png';
 import imageSrc2 from './img/gmail-logo-image.png';
 import imageSrc3 from './img/new-linkedin-image.png';
 
-
 const ContactPage = () => {
-    return ( 
-        <div className="contactpage">
-          <h1 className="slideheaders">Contact Me</h1>
-          <ContactComponent />
+  return (
+    <div className="contactpage section-block">
+      <h1 className="slideheaders">Contact Me</h1>
+
+      <div className="contact-inner">
+        <ContactComponent />
+
+        <div className="social-row">
           <a href="https://github.com/mcmahonjosh" target="_blank" rel="noopener noreferrer">
-                <img src={imageSrc} alt="GitHub Profile" className="github-image"/> {/* Use imported image */}
+            <img src={imageSrc} alt="GitHub Profile" className="github-image" />
           </a>
           <a href="mailto:jhm359@cornell.edu" target="_blank" rel="noopener noreferrer">
-                <img src={imageSrc2} alt="Gmail" className="gmail-image"/> {/* Use imported image */}
+            <img src={imageSrc2} alt="Gmail" className="gmail-image" />
           </a>
           <a href="https://www.linkedin.com/in/joshuahmcmahon/" target="_blank" rel="noopener noreferrer">
-                <img src={imageSrc3} alt="Linkedin Profile" className="linkedin-image"/> {/* Use imported image */}
+            <img src={imageSrc3} alt="LinkedIn Profile" className="linkedin-image" />
           </a>
-          <p className="websitesignature">Programmed by Joshua McMahon              © Copyright 2024</p>
         </div>
-    );
-    
-}
+
+        <p className="websitesignature">Programmed by Joshua McMahon © Copyright 2024</p>
+      </div>
+    </div>
+  );
+};
 
 export default ContactPage;
