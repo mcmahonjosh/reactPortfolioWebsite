@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/reactPortfolioWebsite/static/css/main.096f74bd.css",
-    "main.js": "/reactPortfolioWebsite/static/js/main.07893398.js",
+    "main.css": "/reactPortfolioWebsite/static/css/main.09ecd460.css",
+    "main.js": "/reactPortfolioWebsite/static/js/main.12452f8c.js",
     "static/js/453.d687c74a.chunk.js": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js",
     "static/media/newpomodoroappimage.png": "/reactPortfolioWebsite/static/media/newpomodoroappimage.f7219fd67680851a1ede.png",
     "static/media/selfphotoflowers.jpg": "/reactPortfolioWebsite/static/media/selfphotoflowers.8a25a21e50b4c4afaf1e.jpg",
     "static/media/newewbappimage1.png": "/reactPortfolioWebsite/static/media/newewbappimage1.3ad325e280cf2b3ef7a5.png",
-    "static/media/1705489908612.jpg": "/reactPortfolioWebsite/static/media/1705489908612.0678efcc6d39ef763cb1.jpg",
     "static/media/arcadia-high-app-image.jpg": "/reactPortfolioWebsite/static/media/arcadia-high-app-image.7e8967e446074f13010e.jpg",
     "static/media/gmail-logo-image.png": "/reactPortfolioWebsite/static/media/gmail-logo-image.4f2db89278f9ad3abef6.png",
     "static/media/newappstoredownloadimage.png": "/reactPortfolioWebsite/static/media/newappstoredownloadimage.82ea5b14a0d14a881add.png",
@@ -14,12 +13,12 @@
     "static/media/new-linkedin-image.png": "/reactPortfolioWebsite/static/media/new-linkedin-image.4d4e3ab5462011da39bb.png",
     "static/media/workoutapp-image.jpg": "/reactPortfolioWebsite/static/media/workoutapp-image.7da70899f9b0db94fa4f.jpg",
     "index.html": "/reactPortfolioWebsite/index.html",
-    "main.096f74bd.css.map": "/reactPortfolioWebsite/static/css/main.096f74bd.css.map",
-    "main.07893398.js.map": "/reactPortfolioWebsite/static/js/main.07893398.js.map",
+    "main.09ecd460.css.map": "/reactPortfolioWebsite/static/css/main.09ecd460.css.map",
+    "main.12452f8c.js.map": "/reactPortfolioWebsite/static/js/main.12452f8c.js.map",
     "453.d687c74a.chunk.js.map": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.096f74bd.css",
-    "static/js/main.07893398.js"
+    "static/css/main.09ecd460.css",
+    "static/js/main.12452f8c.js"
   ]
 }
