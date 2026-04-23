@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/reactPortfolioWebsite/static/css/main.5f273fd7.css",
-    "main.js": "/reactPortfolioWebsite/static/js/main.b42d968b.js",
+    "main.css": "/reactPortfolioWebsite/static/css/main.06546cfd.css",
+    "main.js": "/reactPortfolioWebsite/static/js/main.64179320.js",
     "static/js/453.d687c74a.chunk.js": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js",
     "static/media/newpomodoroappimage.png": "/reactPortfolioWebsite/static/media/newpomodoroappimage.f7219fd67680851a1ede.png",
     "static/media/selfphotoflowers.jpg": "/reactPortfolioWebsite/static/media/selfphotoflowers.8a25a21e50b4c4afaf1e.jpg",
+    "static/media/lab4ex.jpg": "/reactPortfolioWebsite/static/media/lab4ex.e5ea6e79a1588f7df0d2.jpg",
     "static/media/arcadia-high-app-image.jpg": "/reactPortfolioWebsite/static/media/arcadia-high-app-image.7e8967e446074f13010e.jpg",
     "static/media/gmail-logo-image.png": "/reactPortfolioWebsite/static/media/gmail-logo-image.4f2db89278f9ad3abef6.png",
     "static/media/newappstoredownloadimage.png": "/reactPortfolioWebsite/static/media/newappstoredownloadimage.82ea5b14a0d14a881add.png",
@@ -13,12 +14,12 @@
     "static/media/workoutapp-image.jpg": "/reactPortfolioWebsite/static/media/workoutapp-image.7da70899f9b0db94fa4f.jpg",
     "static/media/wardrobepic.png": "/reactPortfolioWebsite/static/media/wardrobepic.829d4529c69bedae0178.png",
     "index.html": "/reactPortfolioWebsite/index.html",
-    "main.5f273fd7.css.map": "/reactPortfolioWebsite/static/css/main.5f273fd7.css.map",
-    "main.b42d968b.js.map": "/reactPortfolioWebsite/static/js/main.b42d968b.js.map",
+    "main.06546cfd.css.map": "/reactPortfolioWebsite/static/css/main.06546cfd.css.map",
+    "main.64179320.js.map": "/reactPortfolioWebsite/static/js/main.64179320.js.map",
     "453.d687c74a.chunk.js.map": "/reactPortfolioWebsite/static/js/453.d687c74a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f273fd7.css",
-    "static/js/main.b42d968b.js"
+    "static/css/main.06546cfd.css",
+    "static/js/main.64179320.js"
   ]
 }
