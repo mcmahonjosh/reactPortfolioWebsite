@@ -24,7 +24,7 @@ const ContactPage = () => {
           </a>
         </div>
 
-        <p className="websitesignature">Programmed by Joshua McMahon © Copyright 2024</p>
+        <p className="websitesignature">Programmed by Joshua McMahon © Copyright 2026</p>
       </div>
     </div>
   );

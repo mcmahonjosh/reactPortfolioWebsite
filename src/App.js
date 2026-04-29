@@ -38,17 +38,16 @@ function App() {
                   </section>
                   </div>
                 
+
+                  <div className = "slides slide4">
+                  <section id = "experience"> 
+                  <ExperiencePage className="ExperiencePage"/> 
+                  </section>
+                  </div>
                 
                   <div className = "slides slide3">
                   <section id = "projects"> 
                   <ProjectPage className="ProjectPage"/> 
-                  </section>
-                  </div>
-                
-                
-                  <div className = "slides slide4">
-                  <section id = "experience"> 
-                  <ExperiencePage className="ExperiencePage"/> 
                   </section>
                   </div>
                 

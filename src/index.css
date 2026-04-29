@@ -225,6 +225,13 @@ header.sticky ul li a {
   align-items: start;
 }
 
+.project-card-grid {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
 .content-card {
   background: rgba(255, 255, 255, 0.035);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -243,7 +250,7 @@ header.sticky ul li a {
 
 .project-image,
 .experience-image {
-  margin: 0 auto 24px;
+  margin: 0;
 }
 
 .card-text {
@@ -251,32 +258,11 @@ header.sticky ul li a {
 }
 
 /* Specific images */
-.pomodoro-image {
-  width: min(260px, 90vw);
-  transition: border-color 0.3s ease, transform 0.3s ease;
-}
-
-.workoutapp-image {
-  width: min(320px, 90vw);
-  transition: border-color 0.3s ease, transform 0.3s ease;
-}
-
-.arcadiaapp-image {
-  width: min(230px, 90vw);
-  transition: border-color 0.3s ease, transform 0.3s ease;
-}
-
+.pomodoro-image,
+.workoutapp-image,
+.arcadiaapp-image,
 .ewbapp-image1 {
-  width: min(220px, 90vw);
   transition: border-color 0.3s ease, transform 0.3s ease;
-}
-
-.pomodoro-image:hover,
-.workoutapp-image:hover,
-.arcadiaapp-image:hover,
-.ewbapp-image1:hover {
-  border: 4px solid blue;
-  transform: translateY(-2px);
 }
 
 /* Download buttons */
@@ -509,5 +495,348 @@ header.sticky ul li a {
 
   .profileimage {
     width: min(220px, 78vw);
+  }
+}
+
+/* =========================
+   SHARED PREVIEW CARD STYLING
+   ========================= */
+
+.project-card-grid,
+.modal-card-grid {
+  gap: 1.5rem;
+}
+
+.project-card,
+.modal-preview-card {
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  min-height: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.project-card:hover,
+.modal-preview-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.22);
+  border-color: rgba(110, 150, 255, 0.24);
+}
+
+.project-image-wrap,
+.experience-image-wrap {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.025);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 0;
+}
+
+.project-image-wrap .project-image,
+.project-image-wrap img,
+.experience-image-wrap .experience-image,
+.experience-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+  display: block;
+}
+
+.project-card-content,
+.experience-card-content {
+  width: 100%;
+  padding: 1rem 1.2rem 1.15rem;
+}
+
+.preview-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.project-subtitle,
+.experience-placeholder,
+.experience-company {
+  font-size: 0.92rem;
+  line-height: 1.2;
+  opacity: 0.82;
+  margin: 0 0 0.2rem 0;
+}
+
+.project-title,
+.experience-role {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.12;
+  margin: 0 0 0.4rem 0;
+}
+
+.experience-period {
+  margin: 0 0 0.9rem 0;
+  font-size: 1.02rem;
+  opacity: 0.87;
+}
+
+.project-tags,
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.65rem;
+}
+
+.project-tag,
+.experience-tag {
+  padding: 0.3rem 0.68rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  white-space: nowrap;
+}
+
+.project-click-hint,
+.experience-click-hint {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.68;
+}
+
+/* =========================
+   PROJECT MODAL
+   ========================= */
+
+.project-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 2rem 2rem;
+  padding: 2rem;
+  z-index: 2000;
+}
+
+.project-modal {
+  position: relative;
+  width: min(900px, 95vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 20px;
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.project-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+}
+
+.project-modal-image {
+  width: 100%;
+  max-height: 0px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-modal-body {
+  padding: 1.5rem;
+}
+
+.project-modal-title {
+  margin-bottom: 0.35rem;
+}
+
+.project-modal-subtitle {
+  margin: 0 0 1.2rem 0;
+  opacity: 0.8;
+}
+
+.project-modal-description p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.project-modal-links {
+  margin-top: 1.2rem;
+}
+
+.project-modal-link {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-modal-link:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   EXPERIENCE MODAL
+   ========================= */
+
+.experience-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 2rem 2rem;
+  z-index: 2000;
+}
+
+.experience-modal {
+  position: relative;
+  width: min(900px, 95vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 20px;
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.experience-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+}
+
+.experience-modal-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.experience-modal-body {
+  padding: 1.5rem;
+}
+
+.experience-modal-title {
+  margin-bottom: 0.4rem;
+}
+
+.experience-modal-role {
+  margin: 0;
+  font-weight: 600;
+}
+
+.experience-modal-period {
+  margin-top: 0.35rem;
+  margin-bottom: 1.2rem;
+  opacity: 0.8;
+}
+
+.experience-modal-description p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.modal-download-buttons {
+  margin-top: 1rem;
+}
+
+/* Shared responsive tweaks */
+@media (max-width: 768px) {
+  .project-card,
+  .modal-preview-card {
+    min-height: 320px;
+  }
+
+  .project-image-wrap,
+  .experience-image-wrap {
+    height: 190px;
+  }
+
+  .project-card-content,
+  .experience-card-content {
+    padding: 0.95rem 1rem 1rem;
+  }
+
+  .project-title,
+  .experience-role {
+    font-size: 1.45rem;
+  }
+
+  .experience-period {
+    font-size: 0.98rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .project-tag,
+  .experience-tag {
+    font-size: 0.74rem;
+    padding: 0.28rem 0.58rem;
+  }
+
+  .project-modal-overlay,
+  .experience-modal-overlay {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-image-wrap,
+  .experience-image-wrap {
+    height: 170px;
+  }
+
+  .project-title,
+  .experience-role {
+    font-size: 1.25rem;
+  }
+
+  .project-subtitle,
+  .experience-placeholder,
+  .experience-company {
+    font-size: 0.86rem;
+  }
+
+  .project-click-hint,
+  .experience-click-hint {
+    font-size: 0.76rem;
+  }
+
+  .experience-period {
+    font-size: 0.92rem;
   }
 }

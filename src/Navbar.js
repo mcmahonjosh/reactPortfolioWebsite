@@ -1,5 +1,5 @@
 import React, { useEffect, useState  } from "react";
-import { Link } from "react-router-dom";
+import resumePdf from "./img/Joshua_McMahon_Resume_3_20_26G.pdf";
 
 const Navbar = () => {
   
@@ -7,15 +7,15 @@ const Navbar = () => {
 
     useEffect(() => {
         if (typeof window !== "undefined") {
-            const options = { passive: true }; // options must match add/remove event
-            const scroll = (event) => {
-            const { scrollY } = window;
-            console.log( 'scrollY', scrollY)
-         };
-          window.addEventListener("scroll", () => { //sometimes you have to listen for wheel and not scroll
+            const handleScroll = () => { //sometimes you have to listen for wheel and not scroll
             console.log(window.scrollY);
             setSmall(window.scrollY > 0 );
-          }, true);
+         };
+          window.addEventListener("scroll", handleScroll, { passive: true }); // options must match add/remove event
+
+          return () => {
+            window.removeEventListener("scroll", handleScroll);
+          };
         }
       }, []);
 
@@ -23,13 +23,14 @@ const Navbar = () => {
     return (
         <nav className="navbar">
              <header className={`"" ${small ? "sticky" : ""}`}>
-                <a href="#" className="logo">JM</a>
+                <a href="#home" className="logo">JM</a>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href={resumePdf} target="_blank" rel="noopener noreferrer">Resume</a></li>
                 </ul>
             </header>
             <section className="banner"></section>
