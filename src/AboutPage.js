@@ -10,15 +10,15 @@ const AboutPage = () => {
 
         <div className="slidebody about-text">
           <p>
-            Hi, I'm Joshua McMahon! I am from Los Angeles, California and I am currently a senior studying Computer
-            Science at Cornell University.
+            Hi, I'm Joshua McMahon! I am from Los Angeles, California and I am currently a senior studying <strong>Computer
+            Science</strong> at <strong>Cornell University</strong>.
           </p>
 
           <p>
-              My technical experience spans front-end, back-end, and mobile development. 
-              I have worked with HTML, CSS, JavaScript, TypeScript, and ReactJS for building user-facing applications, and I also have experience developing mobile apps with Swift, React Native, and Expo. 
-              On the back end, I have worked with APIs, Firebase, and Google Cloud Firestore, including in my role on the Engineers Without Borders project team at Cornell. 
-              I am also proficient in Python, Java, and C++, which have strengthened my foundation in software engineering across a range of projects.
+            My technical experience spans front-end, back-end, and mobile development. 
+            I have worked with <strong>HTML, CSS, JavaScript, TypeScript</strong>, and <strong>ReactJS</strong> for building user-facing applications, and I also have experience developing mobile apps with <strong>Swift, React Native</strong>, and Expo. 
+            On the back end, I have worked with <strong>APIs, Firebase,</strong> and <strong>PostgreSQL</strong>, including in my role on the Engineers Without Borders project team at Cornell. 
+            I am also proficient in <strong>Python, Java, and C++</strong>, which have strengthened my foundation in software engineering across a range of projects.
           </p>
 
           <p>
